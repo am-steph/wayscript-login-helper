@@ -1,0 +1,1 @@
+# wayscript-login-helper
