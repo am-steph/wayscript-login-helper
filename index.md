@@ -53,3 +53,19 @@ These secret values are auto saved, no need to look for a save button
     5. Go back to the GitHub page, and type a hash `#` at the end of your first cookie
     6. Paste your second cookie immediately after the `#` and remove the quotation marks "" if needed
 
+## Discord Webhooks
+This is an **OPTIONAL** step to let the script send you a notification on Discord whenever it runs a check-in.
+
+Instructions provided by https://github.com/am-steph/genshin-impact-helper
+1. Edit channel settings. (Create your own discord server or private channel for this)
+   ![](https://i.imgur.com/Q0KFNzv.png)
+2. Go into Integrations and view webhooks.
+   ![](https://i.imgur.com/Z4pfACE.png)
+3. Create a new webhook and copy the URL.
+   ![](https://i.imgur.com/b3ZL3m3.png)
+4. Go back to the "Secrets" tab on the repository and add a new secret called DISCORD_WEBHOOK.
+   ![](https://i.imgur.com/YusKz6V.png)
+5. Run the github action again and check for message in the channel you set the webhook in
+   ![](https://i.imgur.com/0FMvJHW.png)
+
+To stop receiving Discord notifications, delete your DISCORD_WEBHOOK secret.
