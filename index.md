@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# Make a WayScript Account
 
-You can use the [editor on GitHub](https://github.com/am-steph/wayscript-login-helper/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+https://wayscript.com/
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Clone the Script
 
-### Markdown
+Go here and clone the script
+https://wayscript.com/script/6lWu3rLN
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![](https://i.imgur.com/Sk2tFQK.png)
 
-```markdown
-Syntax highlighted code block
+# Set up the time
+![](https://i.imgur.com/1opHU82.png)
+![](https://i.imgur.com/L8b7dQF.png)
 
-# Header 1
-## Header 2
-### Header 3
+# Set up the secrets
+![](https://i.imgur.com/oiL97tP.png)
 
-- Bulleted
-- List
+Follow original taka guide to grab your cookie, use # to separate cookie for multi account
 
-1. Numbered
-2. List
+![](https://i.imgur.com/4zXcZAU.png)
 
-**Bold** and _Italic_ and `Code` text
+# Run the script
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/am-steph/wayscript-login-helper/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![](https://i.imgur.com/40GtLZi.png)
