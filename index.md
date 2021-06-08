@@ -1,12 +1,12 @@
 # Make a WayScript Account
 
-https://wayscript.com/
+[https://wayscript.com/](https://wayscript.com/)
 
 # Clone the Script
 
 Go here and clone the script
 
-https://wayscript.com/script/6lWu3rLN
+[https://wayscript.com/script/6lWu3rLN](https://wayscript.com/script/6lWu3rLN)
 
 ![](https://i.imgur.com/Sk2tFQK.png)
 
