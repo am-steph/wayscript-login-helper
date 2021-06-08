@@ -20,11 +20,15 @@ Go here and clone the script
 
 # Set up the secrets
 
+Add the keys `OS_COOKIE` and `USER_AGENT`, the Discord webhook is optional, see at end of page for webhook instructions
+
 ![](https://i.imgur.com/oiL97tP.png)
 
-Follow original taka guide to grab your cookie, use # to separate cookie for multi account
+Follow original taka guide to grab your cookie, use # to separate cookie for multi account, scroll further down to see cookie instructions.
 
 These secret values are auto saved, no need to look for a save button
+
+You can get your user agent like so:
 
 ![](https://i.imgur.com/4zXcZAU.png)
 
@@ -32,6 +36,14 @@ These secret values are auto saved, no need to look for a save button
 
 ![](https://i.imgur.com/40GtLZi.png)
 
+If you get a failed sign-in or other error try these:
+  - Log out and log back in
+  - Ensure you are on the Daily Rewards page and not the HoyoLab forums
+  - Try incognito mode
+  - Try clearing your history/cache
+  - Try using another browser
+
+If all else fails, ask in #autocheckin-chat on Discord https://discord.com/invite/takagg
 
 ## Getting Cookie (Cloned instructions)
 2. Go to the Daily Check-In event website https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us
@@ -43,6 +55,10 @@ These secret values are auto saved, no need to look for a save button
 7. Copy the text output from the console  
    ![](https://imgur.com/eWP1OyO.png)
    
+Add a `#` immediately after the first cookie and paste the second cookie, no quotations and no spaces.
+
+Do not log out of any account to grab another cookie, just open incognito and get cookie and close browser.
+
  - Remove any quotation marks "" at the front or end of the text 
     - Go back to the MiHoYo event website. You may close the tab but do not click the "Log Out" button because it may cause your cookie to expire.
     - **IF YOU WANT TO CHECK-IN MULTIPLE GENSHIN ACCOUNTS:**
