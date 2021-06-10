@@ -1,10 +1,10 @@
 # WayScript Genshin Login Helper Guide
 
-# Make a WayScript Account
+# 1. Make a WayScript Account
 
 [https://wayscript.com/](https://wayscript.com/)
 
-# Clone the Script
+# 2. Clone the Script
 
 Go here and clone the script
 
@@ -12,13 +12,13 @@ Go here and clone the script
 
 ![](https://i.imgur.com/Sk2tFQK.png)
 
-# Set up the time
+# 3. Set up the time
 
 ![](https://i.imgur.com/1opHU82.png)
 
 ![](https://i.imgur.com/L8b7dQF.png)
 
-# Set up the secrets
+# 4. Set up the secrets
 
 Add the keys `OS_COOKIE` and `USER_AGENT`, the Discord webhook is optional, see at end of page for webhook instructions
 
@@ -32,7 +32,7 @@ You can get your user agent like so:
 
 ![](https://i.imgur.com/4zXcZAU.png)
 
-# Run the script
+# 5. Run the script
 
 ![](https://i.imgur.com/40GtLZi.png)
 
