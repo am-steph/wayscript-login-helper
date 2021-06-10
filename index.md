@@ -54,7 +54,8 @@ If all else fails, ask in #autocheckin-chat on Discord https://discord.com/invit
 6. Type in `document.cookie` in the console
 7. Copy the text output from the console  
    ![](https://imgur.com/eWP1OyO.png)
-   
+
+### Multiple Accounts
 Add a `#` immediately after the first cookie and paste the second cookie, no quotations and no spaces.
 
 Do not log out of any account to grab another cookie, just open incognito and get cookie and close browser.
