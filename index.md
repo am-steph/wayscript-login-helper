@@ -63,11 +63,11 @@ Do not log out of any account to grab another cookie, just open incognito and ge
  - Remove any quotation marks "" at the front or end of the text 
     - Go back to the MiHoYo event website. You may close the tab but do not click the "Log Out" button because it may cause your cookie to expire.
     - **IF YOU WANT TO CHECK-IN MULTIPLE GENSHIN ACCOUNTS:**
-    1. Paste your first cookie into the Value box on GitHub, but do not click "Add Secret" yet.
+    1. Paste your first cookie into the Value box on Wayscript.
     2. Open a new private browsing / Incognito window
     3. Go to the MiHoYo event website on your new browser instance, and log in with your second account
     4. Copy the `document.cookie` as before
-    5. Go back to the GitHub page, and type a hash `#` at the end of your first cookie
+    5. Go back to the Wayscript page, and type a hash `#` at the end of your first cookie
     6. Paste your second cookie immediately after the `#` and remove the quotation marks "" if needed
 
 ## Discord Webhooks
