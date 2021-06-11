@@ -57,6 +57,8 @@ If all else fails, ask in #autocheckin-chat on Discord https://discord.com/invit
 7. Copy the text output from the console  
    ![](https://imgur.com/eWP1OyO.png)
 
+[Return to step 4](https://am-steph.github.io/wayscript-login-helper/#4-set-up-the-secrets)
+
 ### Multiple Accounts
 Add a `#` immediately after the first cookie and paste the second cookie, no quotations and no spaces.
 
