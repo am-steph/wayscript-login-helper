@@ -21,10 +21,12 @@ Go here and clone the script
 # 4. Set up the secrets
 
 Add the keys `OS_COOKIE` and `USER_AGENT`, the Discord webhook is optional, see at end of page for webhook instructions
-*OS_COOKIE and USER_AGENT have to be uppercase, copy exactly
+
 ![](https://i.imgur.com/oiL97tP.png)
 
 Follow original taka guide to grab your cookie, use # to separate cookie for multi account, scroll further down to see cookie instructions.
+
+[Cookie guide](https://am-steph.github.io/wayscript-login-helper/#getting-cookie-cloned-instructions)
 
 These secret values are auto saved, no need to look for a save button
 
