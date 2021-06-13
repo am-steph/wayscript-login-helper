@@ -36,6 +36,8 @@ You can get your user agent like so:
 
 # 5. Run the script
 
+It may take up to 5 minutes to run, there is a random sleep that is implemented on the script. If you wish to speed up testing or change this you can edit the value [here](https://i.imgur.com/FStrNkZ.png)
+
 ![](https://i.imgur.com/40GtLZi.png)
 
 If you get a failed sign-in or other error try these:
