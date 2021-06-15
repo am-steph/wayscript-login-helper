@@ -40,9 +40,11 @@ You can get your user agent like so:
 
 ### Its stuck loading / Why does it take so long to run
 
-It may take up to 5 minutes to run, there is a random sleep that is implemented on the script. If you wish to speed up testing or change this you can edit the value [here](https://i.imgur.com/FStrNkZ.png) after you run and ensure it works, you can change it back to the original value (300) or leave it as is, but its recommended to set it for 300. 
+It may take up to 5 minutes to run, there is a random sleep that is implemented on the script. If you wish to speed up testing or change this you can edit the value [here](https://i.imgur.com/FStrNkZ.png), after you run and ensure it works you can change it back to the original value (300) or leave it as is, but its recommended to set it for 300. 
 
 Every time you change something on wayscript you will need to sync by running it, this is indicated by the orange dot next to it. After you change it back to 300, if you don't want to wait possibly for 5 minutes to run, you can [disable the script](https://i.imgur.com/Ju8d4gM.png), run it, then [enable it again](https://i.imgur.com/1ZQkRak.png)
+
+Keep in mind disabling and enabling step is just to sync, it will not run/test the login
 
 ### Troubleshooting
 
