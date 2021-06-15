@@ -82,6 +82,16 @@ Do not log out of any account to grab another cookie, just open incognito and ge
     5. Go back to the Wayscript page, and type a hash `#` at the end of your first cookie
     6. Paste your second cookie immediately after the `#` and remove the quotation marks "" if needed
 
+#### Multiple Accounts (Example)
+- Open up notepad or a text editor
+- Set up your OS_COOKIE value like so
+
+You can see my first cookie is highlighted in yellow and second in green, there is a `#` between the cookies seperating them
+
+You can copy this and paste it into OS_COOKIE
+
+![](https://i.imgur.com/kYRZlF1.png)
+
 ### Discord Webhooks
 This is an **OPTIONAL** step to let the script send you a notification on Discord whenever it runs a check-in.
 
