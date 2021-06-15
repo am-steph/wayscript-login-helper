@@ -86,7 +86,7 @@ Do not log out of any account to grab another cookie, just open incognito and ge
 - Open up notepad or a text editor
 - Set up your OS_COOKIE value like so
 
-You can see my first cookie is highlighted in yellow and second in green, there is a `#` between the cookies seperating them
+You can see my first cookie is highlighted in yellow and second in green, there is a `#` between the cookies seperating them, do the same for adding more accounts, seperating with `#`
 
 You can copy this and paste it into OS_COOKIE
 
