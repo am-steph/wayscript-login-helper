@@ -1,10 +1,10 @@
 # WayScript Genshin Login Helper Guide
 
-# 1. Make a WayScript Account
+## 1. Make a WayScript Account
 
 [https://wayscript.com/](https://wayscript.com/)
 
-# 2. Clone the Script
+## 2. Clone the Script
 
 Go here and clone the script
 
@@ -12,13 +12,13 @@ Go here and clone the script
 
 ![](https://i.imgur.com/Sk2tFQK.png)
 
-# 3. Set up the time
+## 3. Set up the time
 
 ![](https://i.imgur.com/1opHU82.png)
 
 ![](https://i.imgur.com/L8b7dQF.png)
 
-# 4. Set up the secrets
+## 4. Set up the secrets
 
 Add the keys `OS_COOKIE` and `USER_AGENT`, the Discord webhook is optional, see at end of page for webhook instructions
 
@@ -34,7 +34,7 @@ You can get your user agent like so:
 
 ![](https://i.imgur.com/4zXcZAU.png)
 
-# 5. Run the script
+## 5. Run the script
 
 ![](https://i.imgur.com/40GtLZi.png)
 
@@ -43,6 +43,8 @@ You can get your user agent like so:
 It may take up to 5 minutes to run, there is a random sleep that is implemented on the script. If you wish to speed up testing or change this you can edit the value [here](https://i.imgur.com/FStrNkZ.png) after you run and ensure it works, you can change it back to the original value (300) or leave it as is, but its recommended to set it for 300. 
 
 Every time you change something on wayscript you will need to sync by running it, this is indicated by the orange dot next to it. After you change it back to 300, if you don't want to wait possibly for 5 minutes to run, you can [disable the script](https://i.imgur.com/Ju8d4gM.png), run it, then [enable it again](https://i.imgur.com/1ZQkRak.png)
+
+### Troubleshooting
 
 If you get a failed sign-in or other error try these:
   - Log out and log back in
@@ -53,7 +55,7 @@ If you get a failed sign-in or other error try these:
 
 If all else fails, ask in #autocheckin-chat on Discord https://discord.com/invite/takagg
 
-## Getting Cookie
+### Getting Cookie
 2. Go to the Daily Check-In event website https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us
 3. Log in with your MiHoYo/Genshin Impact account.  
    *If you have never checked in before, manually check in once to ensure that your cookies are set properly.*
@@ -80,7 +82,7 @@ Do not log out of any account to grab another cookie, just open incognito and ge
     5. Go back to the Wayscript page, and type a hash `#` at the end of your first cookie
     6. Paste your second cookie immediately after the `#` and remove the quotation marks "" if needed
 
-## Discord Webhooks
+### Discord Webhooks
 This is an **OPTIONAL** step to let the script send you a notification on Discord whenever it runs a check-in.
 
 Instructions provided by https://github.com/am-steph/genshin-impact-helper
