@@ -26,7 +26,7 @@ Add the keys `OS_COOKIE` and `USER_AGENT`, the Discord webhook is optional, see 
 
 Follow original taka guide to grab your cookie, use # to separate cookie for multi account, scroll further down to see cookie instructions.
 
-[Cookie guide](https://am-steph.github.io/wayscript-login-helper/#getting-cookie-cloned-instructions)
+[Cookie guide](https://am-steph.github.io/wayscript-login-helper/#getting-cookie)
 
 These secret values are auto saved, no need to look for a save button
 
@@ -36,9 +36,13 @@ You can get your user agent like so:
 
 # 5. Run the script
 
-It may take up to 5 minutes to run, there is a random sleep that is implemented on the script. If you wish to speed up testing or change this you can edit the value [here](https://i.imgur.com/FStrNkZ.png)
-
 ![](https://i.imgur.com/40GtLZi.png)
+
+### Its stuck loading / Why does it take so long to run
+
+It may take up to 5 minutes to run, there is a random sleep that is implemented on the script. If you wish to speed up testing or change this you can edit the value [here](https://i.imgur.com/FStrNkZ.png) after you run and ensure it works, you can change it back to the original value (300) or leave it as is, but its recommended to set it for 300. 
+
+Every time you change something on wayscript you will need to sync by running it, this is indicated by the orange dot next to it. After you change it back to 300, if you don't want to wait possibly for 5 minutes to run, you can [disable the script](https://i.imgur.com/Ju8d4gM.png), run it, then [enable it again](https://i.imgur.com/1ZQkRak.png)
 
 If you get a failed sign-in or other error try these:
   - Log out and log back in
@@ -49,7 +53,7 @@ If you get a failed sign-in or other error try these:
 
 If all else fails, ask in #autocheckin-chat on Discord https://discord.com/invite/takagg
 
-## Getting Cookie (Cloned instructions)
+## Getting Cookie
 2. Go to the Daily Check-In event website https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us
 3. Log in with your MiHoYo/Genshin Impact account.  
    *If you have never checked in before, manually check in once to ensure that your cookies are set properly.*
