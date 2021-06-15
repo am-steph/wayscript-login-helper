@@ -1,5 +1,9 @@
 # WayScript Genshin Login Helper Guide
 
+## Video Guide
+
+[![IMAGE ERROR](http://img.youtube.com/vi/qxK1bGAqnUM/0.jpg)](http://www.youtube.com/watch?v=qxK1bGAqnUM)
+
 ## 1. Make a WayScript Account
 
 [https://wayscript.com/](https://wayscript.com/)
