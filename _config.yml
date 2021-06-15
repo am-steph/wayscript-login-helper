@@ -1,1 +1,5 @@
+title: [Wayscript Login Helper]
+description: [Genshin login helper than runs on wayscript]
+colorspace: [primary page color cyan/white/orange/pink/purple/red/yellow]
+
 remote_theme: "dracula/gh-pages"
