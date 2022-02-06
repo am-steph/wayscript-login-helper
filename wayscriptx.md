@@ -7,14 +7,14 @@ As for the future of Wayscript Viz, I am not sure, thus I am making a guide for 
 ## 1. Make a Wayscript X Account
 Yes I know you made one before, but you'll have to make it again. (Don't ask me, I didn't design this platform)
 
-https://app.wayscript.com/
+[https://app.wayscript.com/](https://app.wayscript.com/)
 
 After setting up your account it'll ask you to make a workspace, just put in whatever
 
 ## 2. Clone the Script
 Click Clone, it should clone into the workspace that you defined above earlier
 
-https://app.wayscript.com/lairs/ab4be66a-c414-4615-9a99-4a3f93e492e2/public
+[https://app.wayscript.com/lairs/ab4be66a-c414-4615-9a99-4a3f93e492e2/public](https://app.wayscript.com/lairs/ab4be66a-c414-4615-9a99-4a3f93e492e2/public)
 
 ## 3. Add .secrets
 ![](https://i.imgur.com/eIhGwKY.png)
@@ -22,7 +22,7 @@ https://app.wayscript.com/lairs/ab4be66a-c414-4615-9a99-4a3f93e492e2/public
 ## 4. Add the environment variables
 Anyone getting a sense of deja vu?
 
-![For those who need reminder](https://am-steph.github.io/wayscript-login-helper/#4-set-up-the-secrets)
+[For those who need reminder](https://am-steph.github.io/wayscript-login-helper/#4-set-up-the-secrets)
 
 ![](https://i.imgur.com/KbG0E9b.png)
 
@@ -32,7 +32,7 @@ Edit the time on the trigger
 
 You will need to set a Crontab time. If you don't know what it is, use this site to help.
 
-https://crontab.guru/
+[https://crontab.guru/](https://crontab.guru/)
 
 The time is in UTC, you will need to convert your time to UTC if you want it to activate at a certain time locally to you
 
@@ -67,7 +67,6 @@ Click on rocket then click `Deploy`
 
 ![](https://i.imgur.com/UJbdZLF.png)
 
-
 # FAQ
 
 ### Does it run when I close the tab
@@ -88,10 +87,12 @@ No, other people won't be able to access your code or see your secrets, when sha
 
 ![](https://i.imgur.com/wbw6CET.png)
 
-### How to get cookie, it no works
+### How to get cookie / Not working / ???
 
 Read carefully and follow the instructions.
 
 If all else fails, ping @Stephanos#0001 in the TakaGG Discord on `#autocheckin-chat`
 
 I will only be responding to inquries that are not in the scopes of the FAQ or pinned messages, please check pinned messages in `#autocheckin-chat` for troubleshooting steps
+
+[You can also try this](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
