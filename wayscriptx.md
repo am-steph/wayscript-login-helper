@@ -66,3 +66,32 @@ Wait for the login to complete, if it says successfully signed in, then the logi
 Click on rocket then click `Deploy`
 
 ![](https://i.imgur.com/UJbdZLF.png)
+
+
+# FAQ
+
+### Does it run when I close the tab
+Yes, please stop asking
+
+### Its not working HALP
+Check the `#autocheckin-chat` channel in TakaGG Discord
+
+### How do I setup multiple accounts
+Add `#` inbetween the cookies cookie1#cookie2
+
+![](https://i.imgur.com/kYRZlF1.png)
+
+(No these are not real cookies for any accounts, don't bother typing them out)
+
+### Can others see my code and secrets
+No, other people won't be able to access your code or see your secrets, when shared or cloned secrets are discarded. Under publish you may have noticed that it says others with link to view and clone, as long as you don't click publish, they won't see anything. Even if it is published, the secrets are discarded when cloned.
+
+![](https://i.imgur.com/wbw6CET.png)
+
+### How to get cookie, it no works
+
+Read carefully and follow the instructions.
+
+If all else fails, ping @Stephanos#0001 in the TakaGG Discord on `#autocheckin-chat`
+
+I will only be responding to inquries that are not in the scopes of the FAQ or pinned messages, please check pinned messages in `#autocheckin-chat` for troubleshooting steps
