@@ -100,3 +100,9 @@ If all else fails, ping @Stephanos#0001 in the TakaGG Discord on `#autocheckin-c
 I will only be responding to inquries that are not in the scopes of the FAQ or pinned messages, please check pinned messages in `#autocheckin-chat` for troubleshooting steps
 
 [You can also try this](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+# Etc
+If you like what I do, feel free to buy me a coffee
+
+[buymeacoffee.com/amsteph](buymeacoffee.com/amsteph)
+
