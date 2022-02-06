@@ -82,6 +82,10 @@ Add `#` inbetween the cookies cookie1#cookie2
 
 (No these are not real cookies for any accounts, don't bother typing them out)
 
+### How much time are we alloted on Wayscript X
+
+I do not know. If you don't know what this means, then it probably won't matter.
+
 ### Can others see my code and secrets
 No, other people won't be able to access your code or see your secrets, when shared or cloned secrets are discarded. Under publish you may have noticed that it says others with link to view and clone, as long as you don't click publish, they won't see anything. Even if it is published, the secrets are discarded when cloned.
 
