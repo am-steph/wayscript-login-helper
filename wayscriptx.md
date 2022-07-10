@@ -4,31 +4,42 @@ Wayscript has been developing a new platform called Wayscript X, as such the old
 
 As for the future of Wayscript Viz, I am not sure, thus I am making a guide for Wayscript X, without further ado lets get started
 
-## 1. Make a Wayscript X Account
+# 1. Make a Wayscript X Account
 Yes I know you made one before, but you'll have to make it again. (Don't ask me, I didn't design this platform)
 
 [https://app.wayscript.com/](https://app.wayscript.com/)
 
 After setting up your account it'll ask you to make a workspace, just put in whatever
 
-## 2. Clone the Script
+# 2. Clone the Script
 Click Clone, it should clone into the workspace that you defined above earlier
 
 [https://app.wayscript.com/lairs/ab4be66a-c414-4615-9a99-4a3f93e492e2/public](https://app.wayscript.com/lairs/ab4be66a-c414-4615-9a99-4a3f93e492e2/public)
 
-## 3. Add .secrets
-![](https://i.imgur.com/eIhGwKY.png)
+# 3. Add secrets
+![](https://i.imgur.com/99OrdMG.png)
+![](https://i.imgur.com/rkA7aEM.png)
+![](https://i.imgur.com/MaBQpkY.png)
 
-## 4. Add the environment variables
+*Need a reminder?*
+
 Anyone getting a sense of deja vu?
 
 [For those who need reminder](https://am-steph.github.io/wayscript-login-helper/#4-set-up-the-secrets)
 
 ![](https://i.imgur.com/KbG0E9b.png)
 
-## 5. Set up your trigger
+# 4. Set up your trigger
 
-Edit the time on the trigger
+Go back to overview and click on Open Full Editor
+
+![](https://i.imgur.com/bRwBU0i.png)
+![](https://i.imgur.com/t9kyXSg.png)
+
+Create a new cron trigger
+
+![](https://i.imgur.com/IV0iLu0.png)
+![](https://i.imgur.com/YDcVPxl.png)
 
 You will need to set a Crontab time. If you don't know what it is, use this site to help.
 
@@ -48,21 +59,24 @@ Translation:
 
 It will trigger at 17:30 every day in UTC time
 ```
-![](https://i.imgur.com/7Ngk895.png)
 
-## 6. Try to run it
+
+## 5. Try to run it
 
 At the bottom, there is a terminal, type in `python genshin-os.py` and enter
 
-Yes, you can click the Run button in the trigger to run it instead (continue reading for reason)
-
-![](https://i.imgur.com/r9GvVfB.png)
+![](https://i.imgur.com/y1cICkF.png)
+![](https://i.imgur.com/lnC9NoA.png)
 
 There is a random sleep when it does the login, so it will inform you that it is sleeping for x amount of time. Because of this sometimes you could be unlucky and will have to wait a few minutes. If you want it to go a bit quicker, use `ctrl+c` to exit, press the up arrow, then `enter` again to run, hopefully the random sleep is shorter
 
 Wait for the login to complete, if it says successfully signed in, then the login works, proceed to next steps
 
-## 7. Deploy
+If it shows a cookie error, its possible the secrets values haven't been loaded in, kill the terminal and wait for it to start a new one and try again
+![](https://i.imgur.com/Wg0qxLW.png)
+![](https://i.imgur.com/sqnEmfv.png)
+
+## 6. Deploy
 Click on rocket then click `Deploy`
 
 ![](https://i.imgur.com/UJbdZLF.png)
@@ -101,8 +115,5 @@ I will only be responding to inquries that are not in the scopes of the FAQ or p
 
 [You can also try this](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-# Etc
-If you like what I do, feel free to buy me a coffee
 
-[buymeacoffee.com/amsteph](buymeacoffee.com/amsteph)
 
