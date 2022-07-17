@@ -7,7 +7,7 @@
 Check out napkatti fork on setting variables and running locally
 [napkatti fork](https://github.com/napkatti/genshin-impact-helper/tree/master)
 
-# Heroku
+# Heroku (Deprecated)
 
 ## Requirements
 You will need to install Git and Heroku if you wish to use Heroku for the login helper.
