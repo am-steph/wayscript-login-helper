@@ -101,7 +101,6 @@ You can copy this and paste it into OS_COOKIE
 ### Discord Webhooks
 This is an **OPTIONAL** step to let the script send you a notification on Discord whenever it runs a check-in.
 
-Instructions provided by https://github.com/am-steph/genshin-impact-helper
 1. Edit channel settings. (Create your own discord server or private channel for this)
    ![](https://i.imgur.com/Q0KFNzv.png)
 2. Go into Integrations and view webhooks.
