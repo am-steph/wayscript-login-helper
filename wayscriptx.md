@@ -23,10 +23,14 @@ Click Clone, it should clone into the workspace that you defined above earlier
 
 *Need a reminder?*
 
+**Ensure you are on the daily login page and not hoyolab forums page**
+
 Anyone getting a sense of deja vu?
 
 [For those who need reminder](https://am-steph.github.io/wayscript-login-helper/#4-set-up-the-secrets)
 
+
+Once added, secrets cannot be viewed or edited, they can only be deleted and made again. If you wish to add additional accounts at a later date, you will need to delete and readd OS_COOKIE with both cookies.
 ![](https://i.imgur.com/KbG0E9b.png)
 
 # 4. Set up your trigger
@@ -83,6 +87,9 @@ Click on rocket then click `Deploy`
 
 # FAQ
 
+### Can I set up Discord Webhooks like the previous one
+Yes, refer to [this](https://am-steph.github.io/wayscript-login-helper/#discord-webhooks).  Put `DISCORD_WEBHOOK` in the secrets like the previous one (ignore the UI difference, put it in the same place you put OS_COOKIE and USER_AGENT)
+
 ### Does it run when I close the tab
 Yes, please stop asking
 
@@ -112,8 +119,6 @@ Read carefully and follow the instructions.
 If all else fails, ping @Stephanos#0001 in the TakaGG Discord on `#autocheckin-chat`
 
 I will only be responding to inquries that are not in the scopes of the FAQ or pinned messages, please check pinned messages in `#autocheckin-chat` for troubleshooting steps
-
-[You can also try this](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 
 
