@@ -45,6 +45,10 @@ Create a new cron trigger
 ![](https://i.imgur.com/IV0iLu0.png)
 ![](https://i.imgur.com/YDcVPxl.png)
 
+***
+### Note: To avoid random errors, its recommended to set your time between 05:00-22:00 UTC 
+***
+
 You will need to set a Crontab time. If you don't know what it is, use this site to help.
 
 [https://crontab.guru/](https://crontab.guru/)
