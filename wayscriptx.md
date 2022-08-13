@@ -55,7 +55,7 @@ You will need to set a Crontab time. If you don't know what it is, use this site
 
 The time is in UTC, you will need to convert your time to UTC if you want it to activate at a certain time locally to you
 
-Here it is set as `30 17 * * * ` which is `17:30 UTC` or `12:30 EST` 
+Here it is set as 30 17 which is `17:30 UTC` or `12:30 EST` 
 
 ```
 Translation:
@@ -67,7 +67,10 @@ Translation:
 
 It will trigger at 17:30 every day in UTC time
 ```
+```
+e.g
 
+```
 
 ## 5. Try to run it
 
