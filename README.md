@@ -1,5 +1,5 @@
 # READ FIRST
-The old Wayscript Viz has been discontinued as of August 6, all existing workflows will be stopped and cease to function, the new Wayscript guide is located over [here](https://am-steph.github.io/wayscript-login-helper/wayscriptx)
+The old Wayscript Viz has been discontinued as of August 6 2022, all existing workflows will be stopped and cease to function, the new Wayscript guide is located over [here](https://am-steph.github.io/wayscript-login-helper/wayscriptx)
 
 https://am-steph.github.io/wayscript-login-helper/wayscriptx
 
@@ -14,6 +14,15 @@ In the cron task, for the command use `python task.py`
 
 I will not be providing extensive support for Honkai outside basic functionality of doing the check-in, you are free to clone and edit the script in order to add other functionality like Discord Webhooks and other push notifications. I will not be assisting or providing any help if you are attempting to moddify or add parts to the original script, it is expected you have coding knoweldge to some extent or know what you are doing when you do it.
 
+---
+---
+---
+---
+---
+---
+---
+---
+---
 ---
 ---
 ---
