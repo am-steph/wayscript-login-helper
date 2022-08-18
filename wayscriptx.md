@@ -41,7 +41,7 @@ Go back to overview and click on Open Full Editor
 ![](https://i.imgur.com/t9kyXSg.png)
 
 Create a new cron trigger
-
+Use `python genshin-os.py` as the command to run
 ![](https://i.imgur.com/IV0iLu0.png)
 ![](https://i.imgur.com/YDcVPxl.png)
 
