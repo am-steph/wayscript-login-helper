@@ -84,7 +84,7 @@ There is a random sleep when it does the login, so it will inform you that it is
 Wait for the login to complete, if it says successfully signed in, then the login works, proceed to next steps
 
 If it shows a cookie error, its possible the secrets values haven't been loaded in, kill the terminal and wait for it to start a new one and try again
-![](https://i.imgur.com/Wg0qxLW.png)
+![](https://i.imgur.com/MR81xwE.png)
 ![](https://i.imgur.com/sqnEmfv.png)
 
 ## 6. Deploy
