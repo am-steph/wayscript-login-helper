@@ -38,12 +38,12 @@ Once added, secrets cannot be viewed or edited, they can only be deleted and mad
 Go back to overview and click on Open Full Editor
 
 ![](https://i.imgur.com/bRwBU0i.png)
-![](https://i.imgur.com/t9kyXSg.png)
+![](https://i.imgur.com/ub4Ti1F.png)
 
 Create a new cron trigger
 Use `python genshin-os.py` as the command to run
 ![](https://i.imgur.com/IV0iLu0.png)
-![](https://i.imgur.com/YDcVPxl.png)
+![](https://i.imgur.com/Q2vgn3z.png)
 
 ***
 ### Note: To avoid random errors, its recommended to set your time between 05:00-22:00 UTC 
@@ -55,17 +55,17 @@ You will need to set a Crontab time. If you don't know what it is, use this site
 
 The time is in UTC, you will need to convert your time to UTC if you want it to activate at a certain time locally to you
 
-Here it is set as 30 17 which is `17:30 UTC` or `12:30 EST` 
+Here it is set as 30 15 which is `15:30 UTC` or `10:30 EST` 
 
 ```
 Translation:
 30    min
-17    th hour
+15    th hour
 *     every day of the month
 *     every month
 *     every day of the week
 
-It will trigger at 17:30 every day in UTC time
+It will trigger at 15:30 every day in UTC time
 ```
 ```
 e.g
