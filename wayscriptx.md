@@ -27,7 +27,20 @@ Click Clone, it should clone into the workspace that you defined above earlier
 
 Anyone getting a sense of deja vu?
 
-[For those who need reminder](https://am-steph.github.io/wayscript-login-helper/#4-set-up-the-secrets)
+### Getting Cookie
+1. Go to the Daily Check-In event website https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us
+2. Log in with your MiHoYo/Genshin Impact account.  
+   *If you have never checked in before, manually check in once to ensure that your cookies are set properly.*
+3. Open the developer tools on your web browser (F12 on firefox/chrome)
+4. Click on the "Console" tab
+5. Type in `document.cookie` in the console
+6. Copy the text output from the console  
+   ![](https://imgur.com/eWP1OyO.png)
+
+
+You can get your user agent like so:
+
+![](https://i.imgur.com/4zXcZAU.png)
 
 
 Once added, secrets cannot be viewed or edited, they can only be deleted and made again. If you wish to add additional accounts at a later date, you will need to delete and readd OS_COOKIE with both cookies.
@@ -111,7 +124,7 @@ In the cron task, for the command use `python task.py`
 I will not be providing extensive support for Honkai outside basic functionality of doing the check-in, you are free to clone and edit the script in order to add other functionality like Discord Webhooks and other push notifications. I will not be assisting or providing any help if you are attempting to moddify or add parts to the original script, it is expected you have coding knoweldge to some extent if you are going to edit it.
 
 ### Can I set up Discord Webhooks like the previous one
-Yes, refer to [this](https://am-steph.github.io/wayscript-login-helper/#discord-webhooks).  Put `DISCORD_WEBHOOK` in the secrets like the previous one (ignore the UI difference, put it in the same place you put OS_COOKIE and USER_AGENT)
+Yes, refer to [this](https://am-steph.github.io/wayscript-login-helper/#discord-webhooks).  Put `DISCORD_WEBHOOK` in the secrets like the previous one (ignore step 5 and use `python genshin-os.py` to run, put it in the same place you put OS_COOKIE and USER_AGENT)
 
 ### Does it run when I close the tab
 Yes, please stop asking
