@@ -2,7 +2,7 @@
 
 Wayscript has been developing a new platform called Wayscript X, as such the old Wayscript is now called Wayscript Viz. Wayscript Viz is deprecated and will not be receiving updates or optimizations
 
-As for the future of Wayscript Viz, I am not sure, thus I am making a guide for Wayscript X, without further ado lets get started
+*Update: Wayscript Viz as of August 6 has been shutdown for free users and will be completely shut down for all users by September*
 
 # 1. Make a Wayscript X Account
 Yes I know you made one before, but you'll have to make it again. (Don't ask me, I didn't design this platform)
@@ -69,7 +69,12 @@ It will trigger at 15:30 every day in UTC time
 ```
 ```
 e.g
+45 11 * * *     Run at 11:45 UTC every day, every month, and every day in the week
+5 07 * * *      Run at 07:05 UTC every day, every month, and every day in the week 
 
+
+Use the crontab.guru link to see what your cron setup translates too
+Google a conversion from UTC time to your own local time to see what time it'll run
 ```
 
 ## 5. Try to run it
@@ -79,7 +84,7 @@ At the bottom, there is a terminal, type in `python genshin-os.py` and enter
 ![](https://i.imgur.com/y1cICkF.png)
 ![](https://i.imgur.com/lnC9NoA.png)
 
-There is a random sleep when it does the login, so it will inform you that it is sleeping for x amount of time. Because of this sometimes you could be unlucky and will have to wait a few minutes. If you want it to go a bit quicker, use `ctrl+c` to exit, press the up arrow, then `enter` again to run, hopefully the random sleep is shorter
+There is a random sleep when it does the login, so it will inform you that it is sleeping for x amount of time. Because of this sometimes you could be unlucky and will have to wait up to 5 minutes. If you want it to go a bit quicker, use `ctrl+c` to stop it from running, press the `up arrow`, then `enter` again to run, hopefully the random sleep is shorter
 
 Wait for the login to complete, if it says successfully signed in, then the login works, proceed to next steps
 
@@ -101,7 +106,7 @@ Yes, refer to [this](https://am-steph.github.io/wayscript-login-helper/#discord-
 Yes, please stop asking
 
 ### Its not working HALP
-Check the `#autocheckin-chat` channel in TakaGG Discord
+Check the `#autocheckin-chat` channel in [TakaGG Discord](https://discord.gg/takagg)
 
 ### How do I setup multiple accounts
 Add `#` inbetween the cookies cookie1#cookie2
@@ -112,7 +117,9 @@ Add `#` inbetween the cookies cookie1#cookie2
 
 ### How much time are we alloted on Wayscript X
 
-I do not know. If you don't know what this means, then it probably won't matter.
+According to Wayscript we are given 100 hours of runtime a month, this is more than plenty for the login script.
+
+Assuming (5min of sleep + 1min runtime) x 31 days = ~180min a month or about 3hours out of 100hours, so its plenty enough
 
 ### Can others see my code and secrets
 No, other people won't be able to access your code or see your secrets, when shared or cloned secrets are discarded. Under publish you may have noticed that it says others with link to view and clone, as long as you don't click publish, they won't see anything. Even if it is published, the secrets are discarded when cloned.
@@ -123,9 +130,19 @@ No, other people won't be able to access your code or see your secrets, when sha
 
 Read carefully and follow the instructions.
 
-If all else fails, ping @Stephanos#0001 in the TakaGG Discord on `#autocheckin-chat`
+If all else fails, ping @Stephanos#0001 in the [TakaGG Discord](https://discord.gg/takagg) on `#autocheckin-chat`
 
-I will only be responding to inquries that are not in the scopes of the FAQ or pinned messages, please check pinned messages in `#autocheckin-chat` for troubleshooting steps
+Please check pinned messages in `#autocheckin-chat` for troubleshooting steps or scroll up and read through the chat to see if someone else had your same issue, it will be faster than waiting around for a response. 
+
+Alternatively I am also available on the following Genshin Discord servers, however there is no dedicated support channel for it, you could ping me in them to reach out:
+-  [Ganyu Mains](https://discord.gg/ganyumains)
+-  [KQM Keqing Mains](https://discord.gg/keqing)
+-  [Ayaka Mains](https://discord.gg/3fYHhvSCfq)
+-  [Raiden Mains](https://discord.gg/aEzF9fFjSf)
+-  [Kokomi Mains](https://discord.gg/kokomi)
+-  [Eula Mains](https://discord.gg/sDykTKNxvz)
+-  [Shenhe Mains](https://discord.gg/W2ZZtwcu8G)
+
 
 
 
