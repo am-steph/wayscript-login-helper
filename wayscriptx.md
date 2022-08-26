@@ -5,7 +5,7 @@ Wayscript has been developing a new platform called Wayscript X, as such the old
 *Update: Wayscript Viz as of August 6 has been shutdown for free users and will be completely shut down for all users by September, you should be using Wayscript X moving forward*
 
 # 1. Make a Wayscript X Account
-Yes I know you made one before, but you'll have to make it again. (Don't ask me, I didn't design this platform)
+If you made one before for Wayscript Viz, you'll have to make it again. If you are new just make a account (Don't ask me, I didn't design this platform)
 
 [https://app.wayscript.com/](https://app.wayscript.com/)
 
