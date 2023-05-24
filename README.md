@@ -1,7 +1,47 @@
-# READ FIRST
-The old Wayscript Viz has been discontinued as of August 6 2022, all existing workflows will be stopped and cease to function, the new Wayscript guide is located over [here](https://am-steph.github.io/wayscript-login-helper/wayscriptx)
+# AS OF MAY 2023 WAYSCRIPT IS NO LONGER FREE (READ BELOW)
 
-https://am-steph.github.io/wayscript-login-helper/wayscriptx
+As wayscript is moving to a paid model, they only offer a free trial, not perpetually free.
+It is advised to move to somewhere more stable like Amazon AWS, Google GCP, or Microsoft Azure and use their free tiers
+
+The following is the basic code for doing logins, you may have to adapt the code for certain platforms and install/package the required libraries as needed.
+```
+import genshin
+import os
+import asyncio
+from discord_webhook import DiscordWebhook, DiscordEmbed
+
+async def login():
+     client = genshin.Client(game=genshin.Game.GENSHIN)
+     client.set_cookies(ltuid=os.environ.get('ltuid'), ltoken=os.environ.get('ltoken'))
+     try:
+          reward = await client.claim_daily_reward()
+          return f"Claimed {reward.amount} x {reward.name}"
+     except genshin.AlreadyClaimed:
+          return "Reward already claimed"
+     except:
+          return "Error claiming reward"
+
+def main():
+     webhook = DiscordWebhook(url=os.environ.get('webhook'))
+     response = asyncio.run(login())
+     embed = DiscordEmbed(title="Genshin Daily Check-In",description=response)
+     webhook.add_embed(embed)
+     response = webhook.execute()
+```
+
+I'm not able to provide extensive support, but for general inquries, I can be reached at Stephanos#0001 in any of these genshin servers.
+-  [Ganyu Mains](https://discord.gg/ganyumains)
+-  [KQM Keqing Mains](https://discord.gg/keqing)
+-  [Ayaka Mains](https://discord.gg/3fYHhvSCfq)
+-  [Raiden Mains](https://discord.gg/aEzF9fFjSf)
+-  [Kokomi Mains](https://discord.gg/kokomi)
+-  [Eula Mains](https://discord.gg/sDykTKNxvz)
+-  [Shenhe Mains](https://discord.gg/W2ZZtwcu8G)
+
+# READ FIRST
+~~The old Wayscript Viz has been discontinued as of August 6 2022, all existing workflows will be stopped and cease to function, the new Wayscript guide is located over [here](https://am-steph.github.io/wayscript-login-helper/wayscriptx)~~
+
+~~https://am-steph.github.io/wayscript-login-helper/wayscriptx~~
 
 ## Honkai
 For honkai, you can use the following:
